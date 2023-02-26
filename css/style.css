@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.score {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #c7c7c7;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+.game {
+    margin-bottom: 30px;
+}
+
+.result {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}

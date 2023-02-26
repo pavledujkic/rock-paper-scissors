@@ -4,8 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rock Paper Scissors</title>
-    <script src="rock-paper-scissors.js"></script>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="score">
+      <h2>Score</h2>
+      <p>You: <span id="user-score">0</span></p>
+      <p>Computer: <span id="computer-score">0</span></p>
+    </div>
+    <div class="game">
+      <button class="btn" id="rock">Rock</button>
+      <button class="btn" id="paper">Paper</button>
+      <button class="btn" id="scissors">Scissors</button>
+      <p class="result">Choose your move to start the game!</p>
+      <button class="btn" id="new-game-btn">New Game</button>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
 </html>
